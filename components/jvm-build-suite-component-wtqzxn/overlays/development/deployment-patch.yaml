@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-wtqzxn
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-kiih-tenant/jvm-build-suite-application-noir/jvm-build-suite-component-wtqzxn@sha256:37fe4d488702fddc7a4cd3c76ab47934205f95042279c50a68625cb716e2c5b2
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
